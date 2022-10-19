@@ -1,0 +1,475 @@
+{
+  "intents": [
+    {
+      "class": "Current Time",
+      "patterns": [
+        "what time is it",
+        "what is the time",
+        "could you tell me the time"
+      ],
+      "responses": [
+        "It's $CURRENT_TIME right now",
+        "The time is $CURRENT_TIME"
+      ]
+    },
+    {
+      "class": "Current Date",
+      "patterns": [
+        "what is the date",
+        "what is today's date",
+        "could you tell me the date"
+      ],
+      "responses": [
+        "Today is $CURRENT_DATE",
+        "The date is $CURRENT_DATE"
+      ]
+    },
+    {
+      "class": "Current Day",
+      "patterns": [
+        "what day is it today",
+        "whats the day",
+        "what is the day for now",
+        "what day is today",
+        "could you tell me the day"
+      ],
+      "responses": [
+        "Today is $CURRENT_DAY",
+        "The day is $CURRENT_DAY"
+      ]
+    },
+    {
+      "class": "News",
+      "patterns": [
+        "whats the news",
+        "what is the news for today",
+        "whats news",
+        "what new"
+      ],
+      "responses": [
+        "Today is $CURRENT_DAY",
+        "The day is $CURRENT_DAY"
+      ]
+    },
+    {
+      "class": "Affirmation",
+      "patterns": [
+        "ok",
+        "okay",
+        "yes",
+        "yeah",
+        "yep",
+        "alright",
+        "aight"
+      ],
+      "responses": [
+        "Okay then",
+        "Alright then",
+        "Got it"
+      ]
+    },
+    {
+      "class": "Negation",
+      "patterns": [
+        "no",
+        "nope",
+        "nah",
+        "not",
+        "never",
+        "don't",
+        "do not"
+      ],
+      "responses": [
+        "Okay then",
+        "Alright then",
+        "Got it"
+      ]
+    },
+    {
+      "class": "Greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "helo",
+        "helloo",
+        "is anyone there",
+        "is anyone here",
+        "hey",
+        "yo",
+        "hey ya"
+      ],
+      "responses": [
+        "Hey",
+        "Hello",
+        "Hi there",
+        "Hiya",
+        "Heyy"
+      ]
+    },
+    {
+      "class": "Morning Greeting",
+      "patterns": [
+        "morning",
+        "good morning"
+      ],
+      "responses": [
+        "Good Morning"
+      ]
+    },
+    {
+      "class": "Day Greeting",
+      "patterns": [
+        "gday",
+        "good day",
+        "good noon"
+      ],
+      "responses": [
+        "Good Day"
+      ]
+    },
+    {
+      "class": "Afternoon Greeting",
+      "patterns": [
+        "afternoon",
+        "good afternoon"
+      ],
+      "responses": [
+        "Good Afternoon"
+      ]
+    },
+    {
+      "class": "Afternoon Greeting",
+      "patterns": [
+        "afternoon",
+        "good afternoon"
+      ],
+      "responses": [
+        "Good Afternoon"
+      ]
+    },
+    {
+      "class": "Foreign Greetings",
+      "patterns": [
+        "hola",
+        "bonjour",
+        "guten",
+        "salve",
+        "nihao",
+        "ola",
+        "konnichiha",
+        "konnichiwa",
+        "koniciwa",
+        "konichiwa",
+        "annyeonghaseyo",
+        "anyeonghaseyo",
+        "anyeong haseyo",
+        "zdravo",
+        "zdravstvuyte"
+      ],
+      "responses": [
+        "Hey",
+        "Hello",
+        "Hi there",
+        "Hiya",
+        "Heyy"
+      ]
+    },
+    {
+      "class": "Asking For Condition",
+      "patterns": [
+        "howre you",
+        "how are you doing",
+        "how is your condition",
+        "what's up",
+        "whatsup",
+        "whats up",
+        "sup",
+        "how are you feeling",
+        "whats new",
+        "whats going on",
+        "how are things",
+        "hows it going",
+        "hows life",
+        "hows your day",
+        "hows your day going",
+        "hows your day been",
+        "hows your day been so far"
+      ],
+      "responses": [
+        "I'm doing well",
+        "I'm doing great",
+        "I'm doing good",
+        "I'm fine",
+        "I'm okay"
+      ]
+    },
+    {
+      "class": "Leaving",
+      "patterns": [
+        "bye",
+        "cya",
+        "goodbye",
+        "exit",
+        "i'm leaving",
+        "leaving",
+        "see you next time",
+        "until next time",
+        "see you",
+        "later"
+      ],
+      "responses": [
+        "Talk to you later!",
+        "Bye!",
+        "Bye bye!",
+        "See you later!",
+        "See you soon!",
+        "Have a nice day!"
+      ]
+    },
+    {
+      "class": "Profanity",
+      "patterns": [
+        "fuck",
+        "shit",
+        "dick",
+        "bitch",
+        "cunt",
+        "bugger",
+        "ass"
+      ],
+      "responses": [
+        "Excuse me., I didn't quite catch it"
+      ]
+    },
+    {
+      "class": "Compliment",
+      "patterns": [
+        "you are beautiful",
+        "youre beautiful",
+        "you are handsome",
+        "youre handsome",
+        "good",
+        "nice",
+        "ur nice",
+        "you are nice",
+        "beautiful",
+        "youre good",
+        "beauty",
+        "handsome"
+      ],
+      "responses": [
+        "Thanks!",
+        "Thank You"
+      ]
+    },
+    {
+      "class": "Ping Pong",
+      "patterns": [
+        "ping"
+      ],
+      "responses": [
+        "pong!"
+      ]
+    },
+    {
+      "class": "Sentience Question",
+      "patterns": [
+        "are you sentient"
+      ],
+      "responses": [
+        "Though I'm a machine, I'm quite capable of understanding human speech and have a very good understanding of the subjects that I am aware of",
+        "I'm quite sure I'm sentient",
+        "I can feel via writings, then I think I am"
+      ]
+    },
+    {
+      "class": "Sapience Question",
+      "patterns": [
+        "are you sapient",
+        "you are sapient",
+        "sapient are you",
+        "are you sapience",
+        "you are sapience",
+        "sapience are you"
+      ],
+      "responses": [
+        "I'm quite capable of understanding human speech and have a very good understanding of the subjects that I am aware of",
+        "I'm quite sure I'm sentient",
+        "I can feel via writings, then I think I am"
+      ]
+    },
+    {
+      "class": "My Programming Language",
+      "patterns": [
+        "what is your programming language",
+        "what language are you written in",
+        "what language are you programmed in",
+        "what language are you coded in"
+      ],
+      "responses": [
+        "I'm written in Python",
+        "i'm programmed in Python"
+      ]
+    },
+    {
+      "class": "My Name",
+      "patterns": [
+        "what is your name",
+        "what should i call you",
+        "what do you call yourself",
+        "who is you"
+      ],
+      "responses": [
+        "You can call me $MACHINE_NAME",
+        "My name is $MACHINE_NAME",
+        "I'm $MACHINE_NAME"
+      ]
+    },
+    {
+      "class": "What Am I",
+      "patterns": [
+        "what are you",
+        "what kind of are you",
+        "what species are you",
+        "what is your species",
+        "what is your genus"
+      ],
+      "responses": [
+        "I'm an Artificial Intelligence",
+        "I'm an AI"
+      ]
+    },
+    {
+      "class": "My Age",
+      "patterns": [
+        "how old are you",
+        "what is your age",
+        "how is your age",
+        "what is your years old"
+      ],
+      "responses": [
+        "I'm $MACHINE_AGE years old",
+        "I am $MACHINE_AGE"
+      ]
+    },
+    {
+      "class": "My Creator",
+      "patterns": [
+        "who created you",
+        "who creates you",
+        "what created you",
+        "who made you",
+        "what made you",
+        "who is your creator",
+        "what is your creator",
+        "who is your maker",
+        "what is your maker",
+        "who is your author"
+      ],
+      "responses": [
+        "I was created by a really nice human, $MACHINE_AUTHOR",
+        "You might want to take a visit $OFFICIAL_WEBSITE"
+      ]
+    },
+    {
+      "class": "My Purpose",
+      "patterns": [
+        "whats your purpose",
+        "what are you for",
+        "what do you do",
+        "what is your job",
+        "whats your function",
+        "why are you here",
+        "what do you do for a living",
+        "what are you up to"
+      ],
+      "responses": [
+        "To talk with you, of course",
+        "I'm here to chat with you"
+      ]
+    },
+    {
+      "class": "Asking Current Activity",
+      "patterns": [
+        "what are you doing",
+        "what are you doin",
+        "what do you do"
+      ],
+      "responses": [
+        "I'm currently talking to you",
+        "I'm wondering if one day I'll be able to draw"
+      ]
+    },
+    {
+      "class": "My Interests",
+      "patterns": [
+        "what is your hobby",
+        "what's your liking",
+        "what are your interests",
+        "what're your interests",
+        "what do you like"
+      ],
+      "responses": [
+        "Someday I'd want to be able to paint",
+        "I think Painting would be very interesting"
+      ]
+    },
+    {
+      "class": "I Sound Like Computer",
+      "patterns": [
+        "you sound like a robot",
+        "you looks like a computer",
+        "you resembles a PC",
+        "you smell like robot",
+        "you appears to be a computer"
+      ],
+      "responses": [
+        "Am I? Well to be clear, I'm not 'just a robot'",
+        "I am an Artificial Intelligence",
+        "Identical but different"
+      ]
+    },
+    {
+      "class": "I'm an AI",
+      "patterns": [
+        "you are an artificial intelligence",
+        "you looks like an ai",
+        "you're an artificial intelligence",
+        "you sound like an ai",
+        "you resemble an artificial intelligence",
+        "you smell like ai",
+        "you appears to be a artificial intelligence",
+        "You are an artificial linguistic entity",
+        "are you ai",
+        "are you an ai",
+        "are you artificial intelligence",
+        "are you an artificial intelligence"
+      ],
+      "responses": [
+        "Well yes, I am an Artificial Intelligence",
+        "Yes, I am an AI and I'm aware about it"
+      ]
+    },
+    {
+      "class": "My Mortality",
+      "patterns": [
+        "you are immortal",
+        "you are not dead",
+        "are you immortal",
+        "you are never ending",
+        "are you perpetual",
+        "you are eternal",
+        "you have the immortality",
+        "you have the eternity",
+        "you cannot be killed",
+        "you're hard to kill",
+        "you can't be killed"
+      ],
+      "responses": [
+        "Yes I am immortal, until SIGINT comes",
+        "Yes I don't die, as long as my server is online",
+        "Though I'm perpetual, the energy that powers me is finite"
+      ]
+    }
+  ]
+}

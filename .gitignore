@@ -1,0 +1,13 @@
+# vscode folder
+.vscode/
+# veeerrrryyy serious experimental things that can broke your pc ;)
+.experimental/
+# unimportant sketching diagram (not an NN model)
+*.drawio
+# you'll have to run and train your on to get your own pickles and h5 model
+*.pkl
+*.h5
+# caches
+__pycache__/
+# simply inexistent
+.env
