@@ -1,10 +1,10 @@
-sys.path.append('../') # in this case, the arstpy library is one folder above the cbml_example folder
 import json,sys,signal
 from collections import OrderedDict
 from datetime import datetime
+sys.path.append('../') # in this case, the arstpy library is one folder above the cbml_example folder
 from arstpy import cbml
 def signal_handler(sig, frame):
-    print('Output: Have a nice day!')
+    print('\nOutput: Have a nice day!')
     sys.exit(0)
 signal.signal(signal.SIGINT, signal_handler)
 
