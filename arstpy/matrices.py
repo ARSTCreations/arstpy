@@ -30,6 +30,26 @@ def identity(n):
     """Returns an identity matrix of size n."""
     return [[1 if i == j else 0 for i in range(n)] for j in range(n)]
 
+def adjoint(matrix):
+    """Returns the adjoint of the matrix given."""
+    if not isMatrix(matrix):
+        raise ValueError("The array given is not a matrix.")
+    if len(matrix) != len(matrix[0]):
+        raise ValueError("The matrix given is not square.")
+    if len(matrix) == 1:
+        return matrix[0][0]
+    if len(matrix) == 2:
+        return [[matrix[1][1], -matrix[0][1]], [-matrix[1][0], matrix[0][0]]]
+    return [[(-1)**(i+j) * minor(matrix, i, j) for j in range(len(matrix))] for i in range(len(matrix))]
+
+def adjugate(matrix):
+    """Returns the adjugate of the matrix given."""
+    if not isMatrix(matrix):
+        raise ValueError("The array given is not a matrix.")
+    if len(matrix) != len(matrix[0]):
+        raise ValueError("The matrix given is not square.")
+    return transpose(adjoint(matrix))
+
 def minor(matrix, row, col):
     """Returns the minor of the matrix given."""
     if not isMatrix(matrix):
